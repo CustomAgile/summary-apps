@@ -1,0 +1,98 @@
+<style type="text/css" title="printStyle">
+@media print {
+    #interface: {
+        display: none;
+    }
+
+    .pb {
+        page-break-after: always;
+        clear: both;
+    }
+
+    body {
+        background-color: #fff;
+        margin: 5;
+        padding: 10;
+        font-family: ProximaNova, helvetica, sans-serif;
+        font-size: 10px;
+        color: #000;
+    }
+    table { page-break-inside:auto }
+    tr    { page-break-inside:avoid; page-break-after:auto }
+    thead { display:table-header-group }
+}
+
+#interface, #printSection {
+    margin: 20px;
+}
+
+.pb {
+    page-break-after: always;
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+    margin: 5;
+    padding: 10;
+    font-family: ProximaNova, helvetica, sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+
+table.child-table td {
+    width: 135px;
+    max-width: 135px;
+    padding: 4px;
+    font-family: ProximaNova, helvetica, sans-serif;
+    font-size: 10px;
+}
+
+table.child-table tr {
+    display:table-row;
+}
+
+table.child-table {
+    border-top-color: rgb(136, 136, 136);
+    border-top-style: inset;
+    border-top-width: 1px;
+
+}
+
+table.child-table tr, table.child-table th, table.child-table td {
+    border-top-color: rgb(136, 136, 136);
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-right-color: rgb(136, 136, 136);
+    border-right-style: inset;
+    border-right-width: 1px;
+    border-bottom-color: rgb(136, 136, 136);
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-left-color: rgb(136, 136, 136);
+    border-left-style: inset;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+table.child-table th {
+    background-color: #e4ecee;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: font-family: NotoSans,Helvetica,Arial;
+    text-align: -internal-center;
+}
+
+.ts-trace-heading {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+</style>
